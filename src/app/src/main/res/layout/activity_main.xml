@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            style="@style/edit_text"
+            android:hint="@string/enter_your_name"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/user_name"
+            />
+
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_1_5" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/who_was_the_villian_in_the_avengers_first_movie" />
+
+        <RadioGroup
+            android:id="@+id/question_1"
+            style="@style/Radio_Button_Group_style">
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/thanos"
+                tools:ignore="RtlSymmetry"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/loki"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/ultron"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/dr_doom"
+                tools:targetApi="lollipop" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_2_5" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/who_is_the_first_avenger" />
+
+        <RadioGroup
+            android:id="@+id/question_2"
+            style="@style/Radio_Button_Group_style">
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/captain_marvel"
+                tools:ignore="RtlSymmetry"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/captain_america"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/iron_man"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/hulk"
+                tools:targetApi="lollipop" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_3_5" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/which_avenger_is_a_god" />
+
+        <RadioGroup
+            android:id="@+id/question_3"
+            style="@style/Radio_Button_Group_style">
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/captain_marvel"
+                tools:ignore="RtlSymmetry"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/captain_america"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/thor"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/black_widow"
+                tools:targetApi="lollipop" />
+        </RadioGroup>
+
+
+
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_4_5" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/which_avenger_is_a_spy" />
+
+        <RadioGroup
+            android:id="@+id/question_4"
+            style="@style/Radio_Button_Group_style">
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/black_widow"
+                tools:ignore="RtlSymmetry"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/captain_america"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/black_panther"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/hulk"
+                tools:targetApi="lollipop" />
+        </RadioGroup>
+
+
+
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_5_5" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/which_avenger_movie_did_the_villian_win" />
+
+        <RadioGroup
+            android:id="@+id/question_5"
+            style="@style/Radio_Button_Group_style">
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/the_avenger"
+                tools:ignore="RtlSymmetry"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/avengers_age_of_ultron"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/avengers_endgame"
+                tools:targetApi="lollipop" />
+
+            <RadioButton
+                style="@style/Radio_button_style"
+                android:text="@string/avengers_infinity_war"
+                tools:targetApi="lollipop" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_6_7" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/which_characters_are_apart_of_the_avengers"
+            />
+        <CheckBox
+            style="@style/Check_boxes_style"
+            android:layout_marginTop="48dp"
+            android:text="@string/wonder_women"
+            android:id="@+id/wonder_women"
+            />
+        <CheckBox
+            style="@style/Check_boxes_style"
+            android:text="@string/hulk"
+            android:id="@+id/hulk"
+            />
+        <CheckBox
+            style="@style/Check_boxes_style"
+            android:text="@string/superman"
+            android:id="@+id/superman"
+            />
+        <CheckBox
+            style="@style/Check_boxes_style"
+            android:text="@string/thor"
+            android:id="@+id/thor"
+            />
+        <CheckBox
+            style="@style/Check_boxes_style"
+            android:text="@string/dr_strange"
+            android:id="@+id/dr_strange"
+            />
+
+
+
+        <TextView
+            style="@style/Question_Style_header"
+            android:text="@string/question_7_7" />
+
+        <View style="@style/line" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/which_avenger_has_a_infinity_stone_on_his_head"
+            />
+        <EditText
+            style="@style/edit_text"
+            android:id="@+id/user_edit_text_answer"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/colorAccent"
+            android:onClick="submitUserAnswer"
+            android:text="@string/submit_answers"
+            android:textColor="@android:color/white"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+</ScrollView>
